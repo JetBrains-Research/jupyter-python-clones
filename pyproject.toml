@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "jupyter-python-clones"
+version = "0.1.0"
+description = ""
+authors = ["Konstantin Grotov <konstantin.grotov@gmail.com>", "Sergey Titov <sergey.titov@jetbrains.com>"]
+readme = "README.md"
+packages = [{include = "jupyter-python-clones"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+matplotlib = "^3.6.3"
+pandas = "^1.5.2"
+tqdm = "^4.64.1"
+statsmodels = "^0.13.5"
+jupyter = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
